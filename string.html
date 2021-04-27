@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        const text="wellcome to durshikshya to read javascript"
+        document.write(text);
+        document.write('<br>')
+        //to count the length of the string use length
+        document.write(text.length)
+        document.write('<br>')
+        //to find the position of string use indexOf
+        document.write(text.indexOf('to'))
+        document.write('<br>')
+        document.write(text.lastIndexOf('to'))
+        document.write('<br>')
+
+        document.write(text.search('to'))
+        document.write('<br>')
+        //to replace a string with another string use replace
+        document.write(text.replace('javascript','react'))
+        document.write('<br>')
+        //to replace globally
+        document.write(text.replace(/to/g,'too'))
+        //to replace insensative
+        document.write('<br>')
+        document.write(text.replace(/durshikshya/gi,'too'))
+        document.write('<br>')
+
+        //substring ->small part of a large string
+        //slice ,substring, substr
+        document.write(text.slice(0,15)+'.......')
+        document.write('<br>')
+        document.write(text.substring(6,20)+'....') //6 to 20 samm
+        document.write('<br>')
+        document.write(text.substr(7,30)+'......')// 6 to 30 ota
+        document.write('<br>')
+
+        //to change uppercase
+        document.write(text.toUpperCase())
+        document.write('<br>')
+        document.write(text.toLowerCase())
+        
+
+
+        
+
+
+    </script>
+</body>
+</html>

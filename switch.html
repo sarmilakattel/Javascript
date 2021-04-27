@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <script>
+        let x=prompt('Enter first number')
+        let y=prompt('Enter second number')
+        let operator=prompt('Tell me what you want to do?')
+
+        switch(operator){
+        case "+":
+            let a=Number(x) + Number(y)
+            document.write('The addition is &nbsp;'+ a)
+            break;
+         case "-":
+            let b=Number(x) - Number(y)
+            document.write('The substraction is &nbsp;'+ b)
+            break;
+         case "*":
+            let c=Number(x) * Number(y)
+            document.write('The Multiplication is &nbsp;'+ c)
+            break;
+         case "/":
+            let d=Number(x) / Number(y)
+            document.write('The Division is &nbsp;'+ d)
+            break;
+        case "%":
+            let e=Number(x) % Number(y)
+            document.write('The substraction is &nbsp;'+ e)
+            break;
+    default:
+            Document.write('Invalid Operator')
+            break;
+            
+
+            
+
+            
+            
+        }
+    </script>
+</body>
+</html>
